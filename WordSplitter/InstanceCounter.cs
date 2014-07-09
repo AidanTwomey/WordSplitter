@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace WordSplitter
 {
-    public class InstanceCounter
+    public class InstanceCounter: IInstanceCounter
     {
 
         public Dictionary<string, int> Count(string sentence)
